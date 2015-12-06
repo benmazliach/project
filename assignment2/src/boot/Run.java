@@ -78,6 +78,8 @@ public class Run {
 				i--;
 		}
 		
+		System.out.println("Ben");
+		
 		for (Worker worker : workers) {
 			
 			worker.work();
